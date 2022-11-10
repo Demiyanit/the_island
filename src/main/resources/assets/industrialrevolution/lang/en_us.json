@@ -1,0 +1,12 @@
+{
+  "item.industrialrevolution.dream_shard": "Dream shard",
+  "item.industrialrevolution.dream_cluster": "Dream cluster",
+  "item.industrialrevolution.test_item": "Test item",
+  "item.industrialrevolution.test_raw_item": "Raw test item",
+
+  "block.industrialrevolution.test_block": "Test block",
+  "block.industrialrevolution.test_ore": "Test ore",
+  "block.industrialrevolution.deepslate_test_ore": "Deepslate test block",
+
+  "itemGroup.industrial_revolution_tab": "Industrial revolution"
+}
