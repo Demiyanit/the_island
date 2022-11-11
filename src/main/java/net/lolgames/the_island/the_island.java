@@ -1,8 +1,8 @@
-package net.lolgames.industrialrevolution;
+package net.lolgames.the_island;
 
 import com.mojang.logging.LogUtils;
-import net.lolgames.industrialrevolution.block.ModBlocks;
-import net.lolgames.industrialrevolution.item.ModItems;
+import net.lolgames.the_island.block.ModBlocks;
+import net.lolgames.the_island.item.ModItems;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -13,13 +13,13 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(industrialrevolution.MOD_ID)
-public class industrialrevolution
+@Mod(the_island.MOD_ID)
+public class the_island
 {
-    public static final String MOD_ID = "industrialrevolution";
+    public static final String MOD_ID = "the_island";
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public industrialrevolution() {
+    public the_island() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(modEventBus);

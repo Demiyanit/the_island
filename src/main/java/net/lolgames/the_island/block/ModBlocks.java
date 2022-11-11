@@ -1,8 +1,8 @@
-package net.lolgames.industrialrevolution.block;
+package net.lolgames.the_island.block;
 
-import net.lolgames.industrialrevolution.industrialrevolution;
-import net.lolgames.industrialrevolution.item.ModCreativeModeTab;
-import net.lolgames.industrialrevolution.item.ModItems;
+import net.lolgames.the_island.the_island;
+import net.lolgames.the_island.item.ModCreativeModeTab;
+import net.lolgames.the_island.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -20,21 +20,21 @@ import java.util.function.Supplier;
 
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
-            DeferredRegister.create(ForgeRegistries.BLOCKS, industrialrevolution.MOD_ID);
+            DeferredRegister.create(ForgeRegistries.BLOCKS, the_island.MOD_ID);
 
     public static final RegistryObject<Block> TEST_BLOCK = registerBlock("test_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.INDUSTRIAL_REVOLUTION_TAB);
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.THE_ISLAND_TAB);
 
     public static final RegistryObject<Block> TEST_ORE = registerBlock("test_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f).requiresCorrectToolForDrops(),
-                    UniformInt.of(7, 20)), ModCreativeModeTab.INDUSTRIAL_REVOLUTION_TAB);
+                    UniformInt.of(7, 20)), ModCreativeModeTab.THE_ISLAND_TAB);
 
         public static final RegistryObject<Block> DEEPSLATE_TEST_ORE = registerBlock("deepslate_test_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f).requiresCorrectToolForDrops(),
-                    UniformInt.of(10, 27)), ModCreativeModeTab.INDUSTRIAL_REVOLUTION_TAB);
+                    UniformInt.of(10, 27)), ModCreativeModeTab.THE_ISLAND_TAB);
 
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab ){

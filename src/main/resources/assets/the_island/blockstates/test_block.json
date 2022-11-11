@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "the_island:block/test_block" }
+  }
+}

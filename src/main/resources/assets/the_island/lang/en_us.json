@@ -1,0 +1,12 @@
+{
+  "item.the_island.dream_shard": "Dream shard",
+  "item.the_island.dream_cluster": "Dream cluster",
+  "item.the_island.test_item": "Test item",
+  "item.the_island.test_raw_item": "Raw test item",
+
+  "block.the_island.test_block": "Test block",
+  "block.the_island.test_ore": "Test ore",
+  "block.the_island.deepslate_test_ore": "Deepslate test block",
+
+  "itemGroup.the_island_tab": "The island"
+}

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "industrialrevolution:test_item"
+      "item": "the_island:test_item"
     }
   },
   "result": {
-    "item": "industrialrevolution:test_block"
+    "item": "the_island:test_block"
   }
 }
